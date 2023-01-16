@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "byg:pumpkinmash"
+    }
+  ],
+  "result": {
+    "item": "byg:pumpkinbread",
+    "count": 3
+  }
+}

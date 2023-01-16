@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:firlog"
+    },
+    {
+      "item": "byg:firlog"
+    },
+    {
+      "item": "byg:firlog"
+    },
+    {
+      "item": "byg:firlog"
+    }
+  ],
+  "result": {
+    "item": "byg:firwood",
+    "count": 3
+  }
+}

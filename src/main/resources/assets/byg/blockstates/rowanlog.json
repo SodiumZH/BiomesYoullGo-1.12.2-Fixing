@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:rowanlog"
+    },
+    "facing=south": {
+      "model": "byg:rowanlog"
+    },
+    "facing=north": {
+      "model": "byg:rowanlog"
+    },
+    "facing=east": {
+      "model": "byg:rowanlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:rowanlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:rowanlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:rowanlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

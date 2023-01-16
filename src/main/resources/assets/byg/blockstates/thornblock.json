@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:thornblock"
+    },
+    "facing=south": {
+      "model": "byg:thornblock"
+    },
+    "facing=north": {
+      "model": "byg:thornblock"
+    },
+    "facing=east": {
+      "model": "byg:thornblock",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:thornblock",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:thornblock",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:thornblock",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

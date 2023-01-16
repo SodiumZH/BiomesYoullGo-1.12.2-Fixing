@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:firlog"
+    },
+    "facing=south": {
+      "model": "byg:firlog"
+    },
+    "facing=north": {
+      "model": "byg:firlog"
+    },
+    "facing=east": {
+      "model": "byg:firlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:firlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:firlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:firlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

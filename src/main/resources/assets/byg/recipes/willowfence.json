@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:willowplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:willowplanks"
+    },
+    "3": {
+      "item": "byg:willowplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:willowplanks"
+    }
+  },
+  "result": {
+    "item": "byg:willow_fence",
+    "count": 3
+  }
+}

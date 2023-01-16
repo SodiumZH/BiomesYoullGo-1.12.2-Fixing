@@ -1,0 +1,16 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:enchantedplanks"
+    },
+    {
+      "item": "byg:enchantedplanks"
+    }
+  ],
+  "result": {
+    "item": "byg:enchantedstick",
+    "count": 4
+  }
+}

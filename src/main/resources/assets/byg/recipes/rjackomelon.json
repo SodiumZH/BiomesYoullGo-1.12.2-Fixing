@@ -1,0 +1,16 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:carved_melon"
+    },
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "result": {
+    "item": "byg:jackomelon",
+    "count": 1
+  }
+}

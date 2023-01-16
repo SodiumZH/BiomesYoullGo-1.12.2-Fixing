@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:leafpiledead"
+    },
+    "facing=north": {
+      "model": "byg:leafpiledead"
+    },
+    "facing=east": {
+      "model": "byg:leafpiledead",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "byg:leafpiledead",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "byg:leafpiledead",
+      "y": 270
+    }
+  }
+}

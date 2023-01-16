@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:pinelog"
+    },
+    "facing=south": {
+      "model": "byg:pinelog"
+    },
+    "facing=north": {
+      "model": "byg:pinelog"
+    },
+    "facing=east": {
+      "model": "byg:pinelog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:pinelog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:pinelog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:pinelog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "byg:custom/slabs_template",
+  "textures": {
+    "all": "byg:blocks/ebony_planks",
+    "particle": "byg:blocks/ebony_planks",
+    "0": "byg:blocks/ebony_planks"
+  }
+}

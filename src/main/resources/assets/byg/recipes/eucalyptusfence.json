@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:rainboweucalyptusplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:rainboweucalyptusplanks"
+    },
+    "3": {
+      "item": "byg:rainboweucalyptusplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:rainboweucalyptusplanks"
+    }
+  },
+  "result": {
+    "item": "byg:rainbow_eucalyptus_fence",
+    "count": 3
+  }
+}

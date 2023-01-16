@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:thorn_branches"
+    },
+    "facing=south": {
+      "model": "byg:thorn_branches"
+    },
+    "facing=north": {
+      "model": "byg:thorn_branches"
+    },
+    "facing=east": {
+      "model": "byg:thorn_branches",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:thorn_branches",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:thorn_branches",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:thorn_branches",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

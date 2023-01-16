@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "byg:blocks/plant_poision_ivy1",
+    "particle": "byg:blocks/plant_poision_ivy1"
+  }
+}

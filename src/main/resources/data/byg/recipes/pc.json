@@ -1,0 +1,13 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:cikalog"
+    }
+  ],
+  "result": {
+    "item": "byg:cikaplanks",
+    "count": 4
+  }
+}

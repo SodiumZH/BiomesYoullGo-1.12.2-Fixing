@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:ebonylog"
+    },
+    "facing=south": {
+      "model": "byg:ebonylog"
+    },
+    "facing=north": {
+      "model": "byg:ebonylog"
+    },
+    "facing=east": {
+      "model": "byg:ebonylog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:ebonylog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:ebonylog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:ebonylog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

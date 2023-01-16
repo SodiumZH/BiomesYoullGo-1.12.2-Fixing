@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:skyris_door_bottom"
+    },
+    "facing=north": {
+      "model": "byg:skyris_door_bottom"
+    },
+    "facing=east": {
+      "model": "byg:skyris_door_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "byg:skyris_door_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "byg:skyris_door_bottom",
+      "y": 270
+    }
+  }
+}

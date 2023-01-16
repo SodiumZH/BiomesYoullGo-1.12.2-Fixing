@@ -1,0 +1,19 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:purpleglowshroomitem"
+    },
+    {
+      "item": "byg:purpleglowshroomitem"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "byg:glowshroomsouppurple",
+    "count": 1
+  }
+}

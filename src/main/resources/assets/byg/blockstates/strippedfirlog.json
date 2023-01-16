@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:strippedfirlog"
+    },
+    "facing=south": {
+      "model": "byg:strippedfirlog"
+    },
+    "facing=north": {
+      "model": "byg:strippedfirlog"
+    },
+    "facing=east": {
+      "model": "byg:strippedfirlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:strippedfirlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:strippedfirlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:strippedfirlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

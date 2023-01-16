@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:ebonyplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:ebonyplanks"
+    },
+    "3": {
+      "item": "byg:ebonyplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:ebonyplanks"
+    }
+  },
+  "result": {
+    "item": "byg:ebony_fence",
+    "count": 3
+  }
+}

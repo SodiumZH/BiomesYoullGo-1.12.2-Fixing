@@ -1,0 +1,19 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:cookedspidereye"
+    },
+    {
+      "item": "byg:cookedspidereye"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "byg:spidereyesoup",
+    "count": 1
+  }
+}

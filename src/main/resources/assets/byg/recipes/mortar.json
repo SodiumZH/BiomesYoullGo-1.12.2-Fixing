@@ -1,0 +1,30 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+  },
+  "result": {
+    "item": "byg:woodenmortar",
+    "count": 1
+  }
+}

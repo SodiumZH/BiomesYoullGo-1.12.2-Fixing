@@ -1,0 +1,19 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:cookedcarrot"
+    },
+    {
+      "item": "byg:cookedcarrot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "byg:carrotsoup",
+    "count": 1
+  }
+}

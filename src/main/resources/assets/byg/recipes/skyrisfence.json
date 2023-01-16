@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:skyrisplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:skyrisplanks"
+    },
+    "3": {
+      "item": "byg:skyrisplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:skyrisplanks"
+    }
+  },
+  "result": {
+    "item": "byg:skyris_fence",
+    "count": 3
+  }
+}

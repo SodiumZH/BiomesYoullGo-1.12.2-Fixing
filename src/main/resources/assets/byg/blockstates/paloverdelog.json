@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:paloverdelog"
+    },
+    "facing=south": {
+      "model": "byg:paloverdelog"
+    },
+    "facing=north": {
+      "model": "byg:paloverdelog"
+    },
+    "facing=east": {
+      "model": "byg:paloverdelog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:paloverdelog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:paloverdelog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:paloverdelog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

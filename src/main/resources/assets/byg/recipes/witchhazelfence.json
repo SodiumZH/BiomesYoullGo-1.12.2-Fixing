@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:witchhazelplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:witchhazelplanks"
+    },
+    "3": {
+      "item": "byg:witchhazelplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:witchhazelplanks"
+    }
+  },
+  "result": {
+    "item": "byg:witch_hazel_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "byg:custom/slabs_template",
+  "textures": {
+    "all": "byg:blocks/baobab_planks",
+    "particle": "byg:blocks/baobab_planks",
+    "0": "byg:blocks/baobab_planks"
+  }
+}

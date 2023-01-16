@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:witchhazellog"
+    },
+    "facing=south": {
+      "model": "byg:witchhazellog"
+    },
+    "facing=north": {
+      "model": "byg:witchhazellog"
+    },
+    "facing=east": {
+      "model": "byg:witchhazellog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:witchhazellog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:witchhazellog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:witchhazellog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

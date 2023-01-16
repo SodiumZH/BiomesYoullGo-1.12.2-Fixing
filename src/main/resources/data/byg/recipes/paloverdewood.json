@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:paloverdelog"
+    },
+    {
+      "item": "byg:paloverdelog"
+    },
+    {
+      "item": "byg:paloverdelog"
+    },
+    {
+      "item": "byg:paloverdelog"
+    }
+  ],
+  "result": {
+    "item": "byg:palo_verde_wood",
+    "count": 3
+  }
+}

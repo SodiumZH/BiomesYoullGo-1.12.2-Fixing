@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:mangrovelog"
+    },
+    "facing=south": {
+      "model": "byg:mangrovelog"
+    },
+    "facing=north": {
+      "model": "byg:mangrovelog"
+    },
+    "facing=east": {
+      "model": "byg:mangrovelog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:mangrovelog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:mangrovelog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:mangrovelog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:greenglowshroomitem"
+    },
+    {
+      "item": "byg:greenglowshroomitem"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "byg:green_glowshroom_stew",
+    "count": 1
+  }
+}

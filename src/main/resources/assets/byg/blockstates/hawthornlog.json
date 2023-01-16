@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:hawthornlog"
+    },
+    "facing=south": {
+      "model": "byg:hawthornlog"
+    },
+    "facing=north": {
+      "model": "byg:hawthornlog"
+    },
+    "facing=east": {
+      "model": "byg:hawthornlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:hawthornlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:hawthornlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:hawthornlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

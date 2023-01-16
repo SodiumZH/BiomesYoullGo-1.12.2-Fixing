@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:structure_spawn_block"
+    }
+  }
+}

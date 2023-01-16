@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:zelkovalog"
+    },
+    {
+      "item": "byg:zelkovalog"
+    },
+    {
+      "item": "byg:zelkovalog"
+    },
+    {
+      "item": "byg:zelkovalog"
+    }
+  ],
+  "result": {
+    "item": "byg:zelkova_wood",
+    "count": 3
+  }
+}

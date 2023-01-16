@@ -1,0 +1,9 @@
+{
+  "parent": "byg:custom/stick_pile",
+  "textures": {
+    "all": "byg:blocks/aspen_leaves",
+    "particle": "byg:blocks/aspen_leaves",
+    "aspen_leaves": "byg:blocks/aspen_leaves",
+    "aspen_log": "byg:blocks/aspen_log"
+  }
+}

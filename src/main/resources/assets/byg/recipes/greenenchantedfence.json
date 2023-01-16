@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:greenenchantedplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:greenenchantedplanks"
+    },
+    "3": {
+      "item": "byg:greenenchantedplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:greenenchantedplanks"
+    }
+  },
+  "result": {
+    "item": "byg:green_enchanted_fence",
+    "count": 3
+  }
+}

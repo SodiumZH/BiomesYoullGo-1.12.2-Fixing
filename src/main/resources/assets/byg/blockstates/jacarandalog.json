@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:jacarandalog"
+    },
+    "facing=south": {
+      "model": "byg:jacarandalog"
+    },
+    "facing=north": {
+      "model": "byg:jacarandalog"
+    },
+    "facing=east": {
+      "model": "byg:jacarandalog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:jacarandalog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:jacarandalog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:jacarandalog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

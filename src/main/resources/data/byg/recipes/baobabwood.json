@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:baobablog"
+    },
+    {
+      "item": "byg:baobablog"
+    },
+    {
+      "item": "byg:baobablog"
+    },
+    {
+      "item": "byg:baobablog"
+    }
+  ],
+  "result": {
+    "item": "byg:baobab_wood",
+    "count": 3
+  }
+}

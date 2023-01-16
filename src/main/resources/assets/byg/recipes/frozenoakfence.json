@@ -1,0 +1,34 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:frozenoakplanks"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "2": {
+      "item": "byg:frozenoakplanks"
+    },
+    "3": {
+      "item": "byg:frozenoakplanks"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "item": "byg:frozenoakplanks"
+    }
+  },
+  "result": {
+    "item": "byg:frozen_oak_fence",
+    "count": 3
+  }
+}

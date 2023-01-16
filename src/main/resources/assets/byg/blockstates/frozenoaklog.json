@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:frozenoaklog"
+    },
+    "facing=south": {
+      "model": "byg:frozenoaklog"
+    },
+    "facing=north": {
+      "model": "byg:frozenoaklog"
+    },
+    "facing=east": {
+      "model": "byg:frozenoaklog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:frozenoaklog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:frozenoaklog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:frozenoaklog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

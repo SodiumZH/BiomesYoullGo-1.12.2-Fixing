@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:ebonylog"
+    },
+    {
+      "item": "byg:ebonylog"
+    },
+    {
+      "item": "byg:ebonylog"
+    },
+    {
+      "item": "byg:ebonylog"
+    }
+  ],
+  "result": {
+    "item": "byg:ebony_wood",
+    "count": 3
+  }
+}

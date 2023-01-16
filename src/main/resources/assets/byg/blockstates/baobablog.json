@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:baobablog"
+    },
+    "facing=south": {
+      "model": "byg:baobablog"
+    },
+    "facing=north": {
+      "model": "byg:baobablog"
+    },
+    "facing=east": {
+      "model": "byg:baobablog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:baobablog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:baobablog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:baobablog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

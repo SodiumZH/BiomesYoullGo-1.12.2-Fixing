@@ -1,0 +1,25 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:tamrelitegem"
+    },
+    "1": {
+      "item": "byg:tamrelitegem"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "byg:tamrelitesword",
+    "count": 1
+  }
+}

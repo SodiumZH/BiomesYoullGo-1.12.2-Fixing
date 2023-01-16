@@ -1,0 +1,14 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:paloverdelog"
+    }
+  ],
+  "result": {
+    "item": "minecraft:planks",
+    "data": 2,
+    "count": 4
+  }
+}

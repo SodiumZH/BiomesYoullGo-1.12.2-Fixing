@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:zelkovalog"
+    },
+    "facing=south": {
+      "model": "byg:zelkovalog"
+    },
+    "facing=north": {
+      "model": "byg:zelkovalog"
+    },
+    "facing=east": {
+      "model": "byg:zelkovalog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:zelkovalog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:zelkovalog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:zelkovalog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

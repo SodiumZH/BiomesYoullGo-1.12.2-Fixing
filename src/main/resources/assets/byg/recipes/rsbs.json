@@ -1,0 +1,37 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:skyrisplanks"
+    },
+    {
+      "item": "byg:skyrisplanks"
+    },
+    {
+      "item": "byg:skyrisplanks"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "byg:skyrisplanks"
+    },
+    {
+      "item": "byg:skyrisplanks"
+    },
+    {
+      "item": "byg:skyrisplanks"
+    }
+  ],
+  "result": {
+    "item": "byg:skyrisbookshelf",
+    "count": 1
+  }
+}

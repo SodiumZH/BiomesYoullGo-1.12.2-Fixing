@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:greatoaklog"
+    },
+    "facing=south": {
+      "model": "byg:greatoaklog"
+    },
+    "facing=north": {
+      "model": "byg:greatoaklog"
+    },
+    "facing=east": {
+      "model": "byg:greatoaklog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:greatoaklog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:greatoaklog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:greatoaklog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:zelkovalog"
+    }
+  ],
+  "result": {
+    "item": "byg:zelkovaplanks",
+    "count": 4
+  }
+}

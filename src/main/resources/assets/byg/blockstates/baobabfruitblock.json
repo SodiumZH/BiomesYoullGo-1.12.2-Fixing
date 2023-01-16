@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:baobabfruitblock"
+    },
+    "facing=north": {
+      "model": "byg:baobabfruitblock"
+    },
+    "facing=east": {
+      "model": "byg:baobabfruitblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "byg:baobabfruitblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "byg:baobabfruitblock",
+      "y": 270
+    }
+  }
+}

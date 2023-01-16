@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:maplelog"
+    },
+    "facing=south": {
+      "model": "byg:maplelog"
+    },
+    "facing=north": {
+      "model": "byg:maplelog"
+    },
+    "facing=east": {
+      "model": "byg:maplelog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:maplelog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:maplelog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:maplelog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

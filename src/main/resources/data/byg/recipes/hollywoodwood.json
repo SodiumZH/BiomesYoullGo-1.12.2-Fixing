@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:hollylog"
+    },
+    {
+      "item": "byg:hollylog"
+    },
+    {
+      "item": "byg:hollylog"
+    },
+    {
+      "item": "byg:hollylog"
+    }
+  ],
+  "result": {
+    "item": "byg:holly_wood",
+    "count": 3
+  }
+}

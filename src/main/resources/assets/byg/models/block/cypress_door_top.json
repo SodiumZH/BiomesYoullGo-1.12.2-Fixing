@@ -1,0 +1,8 @@
+{
+  "parent": "byg:custom/door_closed_top",
+  "textures": {
+    "all": "byg:blocks/cypress_door_top",
+    "particle": "byg:blocks/cypress_door_top",
+    "aspen_door_top": "byg:blocks/cypress_door_top"
+  }
+}

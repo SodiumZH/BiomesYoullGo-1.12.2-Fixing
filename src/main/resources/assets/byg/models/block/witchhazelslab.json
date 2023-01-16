@@ -1,0 +1,8 @@
+{
+  "parent": "byg:custom/slabs_template",
+  "textures": {
+    "all": "byg:blocks/witch_hazel_planks",
+    "particle": "byg:blocks/witch_hazel_planks",
+    "0": "byg:blocks/witch_hazel_planks"
+  }
+}

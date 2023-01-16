@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:structure_check_block_disabled"
+    }
+  }
+}

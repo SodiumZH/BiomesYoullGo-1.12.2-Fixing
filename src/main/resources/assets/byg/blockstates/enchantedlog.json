@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:enchantedlog"
+    },
+    "facing=south": {
+      "model": "byg:enchantedlog"
+    },
+    "facing=north": {
+      "model": "byg:enchantedlog"
+    },
+    "facing=east": {
+      "model": "byg:enchantedlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:enchantedlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:enchantedlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:enchantedlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

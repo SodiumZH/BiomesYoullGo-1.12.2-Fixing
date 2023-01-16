@@ -1,0 +1,8 @@
+{
+  "parent": "byg:custom/slabs_template",
+  "textures": {
+    "all": "byg:blocks/skyris_planks",
+    "particle": "byg:blocks/skyris_planks",
+    "0": "byg:blocks/skyris_planks"
+  }
+}

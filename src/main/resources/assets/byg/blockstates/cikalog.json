@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:cikalog"
+    },
+    "facing=south": {
+      "model": "byg:cikalog"
+    },
+    "facing=north": {
+      "model": "byg:cikalog"
+    },
+    "facing=east": {
+      "model": "byg:cikalog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:cikalog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:cikalog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:cikalog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

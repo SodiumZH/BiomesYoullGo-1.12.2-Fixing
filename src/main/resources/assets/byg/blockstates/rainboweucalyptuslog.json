@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "byg:rainboweucalyptuslog"
+    },
+    "facing=south": {
+      "model": "byg:rainboweucalyptuslog"
+    },
+    "facing=north": {
+      "model": "byg:rainboweucalyptuslog"
+    },
+    "facing=east": {
+      "model": "byg:rainboweucalyptuslog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "byg:rainboweucalyptuslog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "byg:rainboweucalyptuslog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "byg:rainboweucalyptuslog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

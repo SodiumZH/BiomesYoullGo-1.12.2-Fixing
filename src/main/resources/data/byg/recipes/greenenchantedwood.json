@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:greenenchantedlog"
+    },
+    {
+      "item": "byg:greenenchantedlog"
+    },
+    {
+      "item": "byg:greenenchantedlog"
+    },
+    {
+      "item": "byg:greenenchantedlog"
+    }
+  ],
+  "result": {
+    "item": "byg:green_enchanted_wood",
+    "count": 3
+  }
+}

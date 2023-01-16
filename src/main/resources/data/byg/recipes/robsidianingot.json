@@ -1,0 +1,11 @@
+{
+  "group": "byg",
+  "type": "minecraft:smelting",
+  "experience": 8,
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "item": "byg:obsidianingot"
+  }
+}

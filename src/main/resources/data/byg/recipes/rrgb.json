@@ -1,0 +1,22 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:glowcanedustred"
+    },
+    {
+      "item": "byg:glowcanedustred"
+    },
+    {
+      "item": "byg:glowcanedustred"
+    },
+    {
+      "item": "byg:glowcanedustred"
+    }
+  ],
+  "result": {
+    "item": "byg:glowcaneblockred",
+    "count": 1
+  }
+}

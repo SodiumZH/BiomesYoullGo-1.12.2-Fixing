@@ -1,0 +1,32 @@
+{
+  "group": "byg",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "byg:tamrelitegem"
+    },
+    "1": {
+      "item": "byg:tamrelitegem"
+    },
+    "2": {
+      "item": "byg:tamrelitegem"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+  "result": {
+    "item": "byg:tamreliteaxe",
+    "count": 1
+  }
+}
