@@ -1,4 +1,4 @@
-/*     */ package net.mcreator.byg;
+/*     */ package net.potionstudios.byg;
 /*     */ import java.util.ArrayList;
 /*     */ import java.util.Iterator;
 /*     */ import net.minecraft.client.model.ModelBase;
@@ -34,10 +34,10 @@
 /*     */ import net.minecraftforge.fml.relauncher.SideOnly;
 /*     */ 
 /*     */ @Elementsbyg.ModElement.Tag
-/*     */ public class MCreatorPetrifiedspider extends Elementsbyg.ModElement {
+/*     */ public class Petrifiedspider extends Elementsbyg.ModElement {
 /*     */   public static final int ENTITYID = 52;
 /*     */   
-/*     */   public MCreatorPetrifiedspider(Elementsbyg instance) {
+/*     */   public Petrifiedspider(Elementsbyg instance) {
 /*  41 */     super(instance, 536);
 /*     */   }
 /*     */   public static final int ENTITYID_RANGED = 53;
@@ -140,7 +140,7 @@
 /*     */ }
 
 
-/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\MCreatorPetrifiedspider.class
+/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\Petrifiedspider.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3
  */

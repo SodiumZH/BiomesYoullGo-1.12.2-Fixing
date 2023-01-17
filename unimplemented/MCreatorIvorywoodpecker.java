@@ -1,4 +1,4 @@
-/*     */ package net.mcreator.byg;
+/*     */ package net.potionstudios.byg;
 /*     */ import java.util.Random;
 /*     */ import net.minecraft.block.state.IBlockState;
 /*     */ import net.minecraft.client.model.ModelBase;
@@ -39,10 +39,10 @@
 /*     */ import net.minecraftforge.fml.relauncher.SideOnly;
 /*     */ 
 /*     */ @Elementsbyg.ModElement.Tag
-/*     */ public class MCreatorIvorywoodpecker extends Elementsbyg.ModElement {
+/*     */ public class Ivorywoodpecker extends Elementsbyg.ModElement {
 /*     */   public static final int ENTITYID = 60;
 /*     */   
-/*     */   public MCreatorIvorywoodpecker(Elementsbyg instance) {
+/*     */   public Ivorywoodpecker(Elementsbyg instance) {
 /*  46 */     super(instance, 718);
 /*     */   }
 /*     */   public static final int ENTITYID_RANGED = 61;
@@ -85,13 +85,13 @@
 /*     */             
 /*     */             public boolean shouldExecute()
 /*     */             {
-/*  88 */               EntityMoveHelper entitymovehelper = MCreatorIvorywoodpecker.EntityCustom.this.getMoveHelper();
+/*  88 */               EntityMoveHelper entitymovehelper = Ivorywoodpecker.EntityCustom.this.getMoveHelper();
 /*  89 */               if (!entitymovehelper.isUpdating()) {
 /*  90 */                 return true;
 /*     */               }
-/*  92 */               double dx = entitymovehelper.getX() - MCreatorIvorywoodpecker.EntityCustom.this.posX;
-/*  93 */               double dy = entitymovehelper.getY() - MCreatorIvorywoodpecker.EntityCustom.this.posY;
-/*  94 */               double dz = entitymovehelper.getZ() - MCreatorIvorywoodpecker.EntityCustom.this.posZ;
+/*  92 */               double dx = entitymovehelper.getX() - Ivorywoodpecker.EntityCustom.this.posX;
+/*  93 */               double dy = entitymovehelper.getY() - Ivorywoodpecker.EntityCustom.this.posY;
+/*  94 */               double dz = entitymovehelper.getZ() - Ivorywoodpecker.EntityCustom.this.posZ;
 /*  95 */               double d = dx * dx + dy * dy + dz * dz;
 /*  96 */               return (d < 1.0D || d > 3600.0D);
 /*     */             }
@@ -104,11 +104,11 @@
 /*     */ 
 /*     */             
 /*     */             public void startExecuting() {
-/* 107 */               Random random = MCreatorIvorywoodpecker.EntityCustom.this.getRNG();
-/* 108 */               double dir_x = MCreatorIvorywoodpecker.EntityCustom.this.posX + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
-/* 109 */               double dir_y = MCreatorIvorywoodpecker.EntityCustom.this.posY + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
-/* 110 */               double dir_z = MCreatorIvorywoodpecker.EntityCustom.this.posZ + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
-/* 111 */               MCreatorIvorywoodpecker.EntityCustom.this.getMoveHelper().setMoveTo(dir_x, dir_y, dir_z, 0.8D);
+/* 107 */               Random random = Ivorywoodpecker.EntityCustom.this.getRNG();
+/* 108 */               double dir_x = Ivorywoodpecker.EntityCustom.this.posX + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
+/* 109 */               double dir_y = Ivorywoodpecker.EntityCustom.this.posY + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
+/* 110 */               double dir_z = Ivorywoodpecker.EntityCustom.this.posZ + ((random.nextFloat() * 2.0F - 1.0F) * 16.0F);
+/* 111 */               Ivorywoodpecker.EntityCustom.this.getMoveHelper().setMoveTo(dir_x, dir_y, dir_z, 0.8D);
 /*     */             }
 /*     */           });
 /* 114 */       this.moveHelper = new EntityMoveHelper((EntityLiving)this)
@@ -117,17 +117,17 @@
 /*     */ 
 /*     */           
 /*     */           public void onUpdateMoveHelper() {
-/* 120 */             double dx = this.posX - MCreatorIvorywoodpecker.EntityCustom.this.posX;
-/* 121 */             double dy = this.posY - MCreatorIvorywoodpecker.EntityCustom.this.posY;
-/* 122 */             double dz = this.posZ - MCreatorIvorywoodpecker.EntityCustom.this.posZ;
+/* 120 */             double dx = this.posX - Ivorywoodpecker.EntityCustom.this.posX;
+/* 121 */             double dy = this.posY - Ivorywoodpecker.EntityCustom.this.posY;
+/* 122 */             double dz = this.posZ - Ivorywoodpecker.EntityCustom.this.posZ;
 /* 123 */             double d = dx * dx + dy * dy + dz * dz;
 /* 124 */             if (this.action == EntityMoveHelper.Action.MOVE_TO && this.patchChangeTimer-- <= 0) {
-/* 125 */               this.patchChangeTimer += MCreatorIvorywoodpecker.EntityCustom.this.getRNG().nextInt(5) + 2;
+/* 125 */               this.patchChangeTimer += Ivorywoodpecker.EntityCustom.this.getRNG().nextInt(5) + 2;
 /* 126 */               d = MathHelper.sqrt(d);
 /* 127 */               if (isNotColliding(this.posX, this.posY, this.posZ, d)) {
-/* 128 */                 MCreatorIvorywoodpecker.EntityCustom.this.motionX += dx / d * 0.1D;
-/* 129 */                 MCreatorIvorywoodpecker.EntityCustom.this.motionY += dy / d * 0.1D;
-/* 130 */                 MCreatorIvorywoodpecker.EntityCustom.this.motionZ += dz / d * 0.1D;
+/* 128 */                 Ivorywoodpecker.EntityCustom.this.motionX += dx / d * 0.1D;
+/* 129 */                 Ivorywoodpecker.EntityCustom.this.motionY += dy / d * 0.1D;
+/* 130 */                 Ivorywoodpecker.EntityCustom.this.motionZ += dz / d * 0.1D;
 /*     */               } else {
 /* 132 */                 this.action = EntityMoveHelper.Action.WAIT;
 /*     */               } 
@@ -136,13 +136,13 @@
 /*     */ 
 /*     */           
 /*     */           private boolean isNotColliding(double x, double y, double z, double par) {
-/* 139 */             double dx = (x - MCreatorIvorywoodpecker.EntityCustom.this.posX) / par;
-/* 140 */             double dy = (y - MCreatorIvorywoodpecker.EntityCustom.this.posY) / par;
-/* 141 */             double dz = (z - MCreatorIvorywoodpecker.EntityCustom.this.posZ) / par;
-/* 142 */             AxisAlignedBB axisalignedbb = MCreatorIvorywoodpecker.EntityCustom.this.getEntityBoundingBox();
+/* 139 */             double dx = (x - Ivorywoodpecker.EntityCustom.this.posX) / par;
+/* 140 */             double dy = (y - Ivorywoodpecker.EntityCustom.this.posY) / par;
+/* 141 */             double dz = (z - Ivorywoodpecker.EntityCustom.this.posZ) / par;
+/* 142 */             AxisAlignedBB axisalignedbb = Ivorywoodpecker.EntityCustom.this.getEntityBoundingBox();
 /* 143 */             for (int i = 1; i < par; i++) {
 /* 144 */               axisalignedbb = axisalignedbb.offset(dx, dy, dz);
-/* 145 */               if (!MCreatorIvorywoodpecker.EntityCustom.this.world.getCollisionBoxes((Entity)MCreatorIvorywoodpecker.EntityCustom.this, axisalignedbb).isEmpty())
+/* 145 */               if (!Ivorywoodpecker.EntityCustom.this.world.getCollisionBoxes((Entity)Ivorywoodpecker.EntityCustom.this, axisalignedbb).isEmpty())
 /* 146 */                 return false; 
 /*     */             } 
 /* 148 */             return true;
@@ -416,7 +416,7 @@
 /*     */ }
 
 
-/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\MCreatorIvorywoodpecker.class
+/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\Ivorywoodpecker.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3
  */

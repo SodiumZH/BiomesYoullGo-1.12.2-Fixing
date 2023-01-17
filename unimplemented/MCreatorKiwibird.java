@@ -1,4 +1,4 @@
-/*     */ package net.mcreator.byg;
+/*     */ package net.potionstudios.byg;
 /*     */ import net.minecraft.client.model.ModelBase;
 /*     */ import net.minecraft.client.model.ModelRenderer;
 /*     */ import net.minecraft.client.renderer.entity.Render;
@@ -31,10 +31,10 @@
 /*     */ import net.minecraftforge.fml.relauncher.SideOnly;
 /*     */ 
 /*     */ @Elementsbyg.ModElement.Tag
-/*     */ public class MCreatorKiwibird extends Elementsbyg.ModElement {
+/*     */ public class Kiwibird extends Elementsbyg.ModElement {
 /*     */   public static final int ENTITYID = 56;
 /*     */   
-/*     */   public MCreatorKiwibird(Elementsbyg instance) {
+/*     */   public Kiwibird(Elementsbyg instance) {
 /*  38 */     super(instance, 680);
 /*     */   }
 /*     */   public static final int ENTITYID_RANGED = 57;
@@ -259,7 +259,7 @@
 /*     */ }
 
 
-/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\MCreatorKiwibird.class
+/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\Kiwibird.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3
  */

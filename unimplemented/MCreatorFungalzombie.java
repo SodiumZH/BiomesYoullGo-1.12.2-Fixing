@@ -1,4 +1,4 @@
-/*     */ package net.mcreator.byg;
+/*     */ package net.potionstudios.byg;
 /*     */ import net.minecraft.client.model.ModelBase;
 /*     */ import net.minecraft.client.model.ModelBiped;
 /*     */ import net.minecraft.client.model.ModelZombie;
@@ -36,10 +36,10 @@
 /*     */ import net.minecraftforge.fml.relauncher.SideOnly;
 /*     */ 
 /*     */ @Elementsbyg.ModElement.Tag
-/*     */ public class MCreatorFungalzombie extends Elementsbyg.ModElement {
+/*     */ public class Fungalzombie extends Elementsbyg.ModElement {
 /*     */   public static final int ENTITYID = 48;
 /*     */   
-/*     */   public MCreatorFungalzombie(Elementsbyg instance) {
+/*     */   public Fungalzombie(Elementsbyg instance) {
 /*  43 */     super(instance, 534);
 /*     */   }
 /*     */   public static final int ENTITYID_RANGED = 49;
@@ -135,13 +135,13 @@
 /*     */     }
 /*     */     
 /*     */     protected void dropRareDrop(int par1) {
-/* 138 */       dropItem((new ItemStack(MCreatorGreenglowshroomitem.block, 1)).getItem(), 1);
+/* 138 */       dropItem((new ItemStack(Greenglowshroomitem.block, 1)).getItem(), 1);
 /*     */     }
 /*     */   }
 /*     */ }
 
 
-/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\MCreatorFungalzombie.class
+/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\Fungalzombie.class
  * Java compiler version: 8 (52.0)
  * JD-Core Version:       1.1.3
  */
