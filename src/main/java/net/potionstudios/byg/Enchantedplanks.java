@@ -35,6 +35,7 @@
  
    
    public void init(FMLInitializationEvent event) {
+	   OreDictionary.registerOre("plankWoodEnchanted", block);
      OreDictionary.registerOre("plankWood", block);
    }
  

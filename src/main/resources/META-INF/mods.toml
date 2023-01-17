@@ -3,12 +3,12 @@ loaderVersion="[28,)"
 
 [[mods]]
 modId="byg"
-version="1.7.2"
+version="1.8"
 displayName="BYG Test"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://biomesyougo.weebly.com/"
 logoFile="logo.png"
-authors="AOCAWOL, MCreator"
+authors="AOCAWOL, SodiumZH, MCreator"
 description='''
 An Adventure and Exploration mod with over 70 new biomes!
 '''
