@@ -14,7 +14,7 @@
  
    
    public void init(FMLInitializationEvent event) {
-     GameRegistry.addSmelting(new ItemStack(Blocks.OBSIDIAN, 1), new ItemStack(Obsidianingot.block, 1), 8.0F);
+    // GameRegistry.addSmelting(new ItemStack(Blocks.OBSIDIAN, 1), new ItemStack(Obsidianingot.block, 1), 8.0F);
    }
  }
 
