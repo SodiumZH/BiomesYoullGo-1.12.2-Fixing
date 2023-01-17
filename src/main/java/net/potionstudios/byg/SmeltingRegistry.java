@@ -23,5 +23,8 @@ extends Elementsbyg.ModElement {
 	 
 	   public void init(FMLInitializationEvent event) {
 		     GameRegistry.addSmelting(new ItemStack(Kasaiore.block, 1), new ItemStack(Kasaiingot.block, 1), 1.0F);
+		     GameRegistry.addSmelting(new ItemStack(Lathariumore.block, 1), new ItemStack(Lathariumgem.block, 1), 1.0F);
+		     GameRegistry.addSmelting(new ItemStack(Pendoriteore.block, 1), new ItemStack(Pendoritegem.block, 1), 1.0F);
+		     GameRegistry.addSmelting(new ItemStack(Tamreliteore.block, 1), new ItemStack(Tamrelitegem.block, 1), 1.0F);
 		   }
 }

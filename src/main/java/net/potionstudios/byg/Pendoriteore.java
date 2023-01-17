@@ -106,7 +106,28 @@
  
      
      public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-       drops.add(new ItemStack(Pendoritegem.block, 1));
+    	 
+    	 int amount = 0;
+    	 Random random = world instanceof World ? ((World)world).rand : RANDOM;
+    	 
+    	 if (fortune > 0)
+         {
+             int i = random.nextInt(fortune + 2) - 1;
+
+             if (i < 0)
+             {
+                 i = 0;
+             }
+
+             amount = i + 1;
+         }
+         else
+         {
+             amount = 1;
+         }
+    	 
+    	 drops.add(new ItemStack(Pendoritegem.block, amount));
+    	 
      }
    }
  }

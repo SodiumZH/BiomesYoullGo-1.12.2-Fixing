@@ -8,3 +8,6 @@ Fixed Kasai Ore being unable to make Ingot. Because adding furnace recipes needs
 
 Fixed Kasai Ore not smelting. Removed the temporal recipe in 1.7.1.1.
 
+Fixed Tamrelite/Pendorite/Latharium ores not smelting
+
+Fixed Tamrelite/Pendorite/Latharium ores not applying Fortune enchantment

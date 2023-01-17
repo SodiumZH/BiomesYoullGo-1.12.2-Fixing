@@ -3,7 +3,8 @@
  import com.google.common.base.Predicate;
  import java.util.Random;
  import net.minecraft.block.Block;
- import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockOre;
+import net.minecraft.block.SoundType;
  import net.minecraft.block.material.Material;
  import net.minecraft.block.state.IBlockState;
  import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -100,7 +101,27 @@
  
      
      public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-       drops.add(new ItemStack(Lathariumgem.block, 1));
+    	 
+    	 int amount = 0;
+    	 Random random = world instanceof World ? ((World)world).rand : RANDOM;
+    	 
+    	 if (fortune > 0)
+         {
+             int i = random.nextInt(fortune + 2) - 1;
+
+             if (i < 0)
+             {
+                 i = 0;
+             }
+
+             amount = i + 1;
+         }
+         else
+         {
+             amount = 1;
+         }
+    	 
+    	 drops.add(new ItemStack(Lathariumgem.block, amount));
      }
    }
  }
