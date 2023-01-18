@@ -2,11 +2,13 @@
  
  import net.minecraft.client.renderer.block.model.ModelResourceLocation;
  import net.minecraft.creativetab.CreativeTabs;
- import net.minecraft.item.EnumAction;
+import net.minecraft.init.MobEffects;
+import net.minecraft.item.EnumAction;
  import net.minecraft.item.Item;
  import net.minecraft.item.ItemFood;
  import net.minecraft.item.ItemStack;
- import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraft.potion.PotionEffect;
+import net.minecraftforge.client.event.ModelRegistryEvent;
  import net.minecraftforge.client.model.ModelLoader;
  import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
  import net.minecraftforge.fml.relauncher.Side;
@@ -40,6 +42,7 @@
        setRegistryName("cookedflesh");
        setCreativeTab(CreativeTabs.FOOD);
        setMaxStackSize(64);
+       setPotionEffect(new PotionEffect(MobEffects.HUNGER, 400, 0), 0.6F)
      }
  
      
