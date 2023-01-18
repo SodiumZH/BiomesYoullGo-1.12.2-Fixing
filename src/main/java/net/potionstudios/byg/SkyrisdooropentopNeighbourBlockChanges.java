@@ -51,7 +51,4 @@
  }
 
 
-/* Location:              H:\eclipse-workspace-19\BiomesYouGo1.7.1-deobf.jar!\net\mcreator\byg\SkyrisdooropentopNeighbourBlockChanges.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
+
