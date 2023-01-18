@@ -42,7 +42,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
        setRegistryName("cookedflesh");
        setCreativeTab(CreativeTabs.FOOD);
        setMaxStackSize(64);
-       setPotionEffect(new PotionEffect(MobEffects.HUNGER, 400, 0), 0.6F)
+       setPotionEffect(new PotionEffect(MobEffects.HUNGER, 400, 0), 0.6F);
      }
  
      
