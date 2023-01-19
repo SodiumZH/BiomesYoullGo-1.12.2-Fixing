@@ -1,23 +1,15 @@
 {
   "group": "byg",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "byg:kasaichainplating"
-    },
-    {
-      "item": "byg:kasaichainplating"
-    },
-    {
-      "item": "byg:kasaichainplating"
-    },
-    {
-      "item": "byg:kasaichainplating"
-    },
-    {
-      "item": "byg:kasaichainplating"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+  "AAA",
+  "A A"
   ],
+  "key":{
+  	"A":{
+  		"item": "byg:kasaichainplating"
+  	}
+  },
   "result": {
     "item": "byg:kasaiarmourhelmet",
     "count": 1
