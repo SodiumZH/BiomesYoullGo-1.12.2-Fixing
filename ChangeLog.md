@@ -14,17 +14,23 @@ This version and above will be based on decompiled source code instead of the co
 
 Fixed Tamrelite/Pendorite/Latharium/Kasai ores not smelting. Removed the temporal recipe in 1.7.1.1.
 
-Fixed Tamrelite/Pendorite/Latharium ores not applying Fortune enchantment.
+Fixed Fortune enchantment not working on Tamrelite/Pendorite/Latharium ores.
 
 Fixed Logs not smelting into Charcoals.
 
-Adjusted the recipes for Enchanted Stick to avoid the conflict against recipes for Stick and Pressure Plate. Now the two planks must be placed at the diagonal positions.
+Adjusted the recipes for Enchanted Stick to solve the conflict with recipes for Stick and Pressure Plate. Now the two planks must be placed at the diagonal positions.
+
+Fixed Kasai tools and armors missing recipe patterns.
 
 Changed textures of Scoria and related blocks to the version of BYG 1.19.
 
 Temporarily removed the smelting recipe of Obsidian Ingot.
 
-Added Simpified Chinese translation (zh_cn.lang). 
+Added Simplified Chinese translation. 
+
+Fixed mod info not correctly displaying.
+
+Changed the mod name byg->Biomes You'll Go displayed in JEI.
 
 此版本及以上基于反编译的源码，不再使用编译后的包。
 
@@ -41,3 +47,7 @@ Added Simpified Chinese translation (zh_cn.lang).
 暂时移除了黑曜石锭的烧炼配方。
 
 加入了简体中文翻译。
+
+修复了mod界面中mod信息显示错误的问题。
+
+将JEI中显示的mod名由byg改为Biomes You'll Go.
