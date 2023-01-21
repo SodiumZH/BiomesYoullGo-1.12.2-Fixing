@@ -8,6 +8,12 @@ Slab items missing 3D model
 
 Some technical blocks (e.g. upper/lower door, opened gate, etc.) presenting in JEI
 
+Woods unable to make planks
+
+Some wooden walls missing recipe
+
+Cypress missing bookshelf
+
 --
 
 树叶无法自动消失
@@ -17,3 +23,9 @@ Some technical blocks (e.g. upper/lower door, opened gate, etc.) presenting in J
 台阶丢失道具3D模型
 
 一些技术性方块（上/下半门、打开的栅栏门等）出现在JEI中
+
+木头无法做成木板
+
+一些木墙配方缺失
+
+Cypress缺失书架
