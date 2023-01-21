@@ -69,3 +69,13 @@ Added Simplified Chinese translation.
 将JEI中显示的mod名由byg改为Biomes You'll Go.
 
 加入了简体中文翻译。
+
+
+
+## 1.8.0.1
+
+Fixed wrong gate recipes.
+
+--
+
+修复了栅栏门合成配方错误。

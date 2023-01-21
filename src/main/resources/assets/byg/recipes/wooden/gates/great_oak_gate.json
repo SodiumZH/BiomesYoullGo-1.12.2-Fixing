@@ -2,8 +2,8 @@
   "group": "byg",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PBP",
-    "PBP"
+    "BPB",
+    "BPB"
   ],
   "key": {
     "P": {
@@ -16,6 +16,6 @@
   },
   "result": {
     "item": "byg:great_oak_gate",
-    "count": 3
+    "count": 1
   }
 }
