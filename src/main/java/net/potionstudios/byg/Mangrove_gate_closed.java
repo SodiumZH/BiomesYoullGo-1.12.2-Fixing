@@ -107,13 +107,13 @@
        { 
          
          default:
-           return new AxisAlignedBB(1.0D, 0.0D, 0.6D, 0.0D, 1.0D, 0.4D);
+           return new AxisAlignedBB(1.0D, 0.0D, 0.6D, 0.0D, 1.5D, 0.4D);
          case NORTH:
-           return new AxisAlignedBB(0.0D, 0.0D, 0.4D, 1.0D, 1.0D, 0.6D);
+           return new AxisAlignedBB(0.0D, 0.0D, 0.4D, 1.0D, 1.5D, 0.6D);
          case WEST:
-           return new AxisAlignedBB(0.4D, 0.0D, 1.0D, 0.6D, 1.0D, 0.0D);
+           return new AxisAlignedBB(0.4D, 0.0D, 1.0D, 0.6D, 1.5D, 0.0D);
          case EAST:
-           break; }  return new AxisAlignedBB(0.6D, 0.0D, 0.0D, 0.4D, 1.0D, 1.0D);
+           break; }  return new AxisAlignedBB(0.6D, 0.0D, 0.0D, 0.4D, 1.5D, 1.0D);
      }
  
  
