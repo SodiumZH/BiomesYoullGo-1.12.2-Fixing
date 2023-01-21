@@ -16,6 +16,8 @@ Fixed Tamrelite/Pendorite/Latharium/Kasai ores not smelting. Removed the tempora
 
 Fixed Fortune enchantment not working on Tamrelite/Pendorite/Latharium ores.
 
+Fixed Tamrelite/Pendorite/Latharium/Kasai tools/armors recipe pattern errors.
+
 Fixed Logs not smelting into Charcoals.
 
 Adjusted the recipes for Enchanted Stick to solve the conflict with recipes for Stick and Pressure Plate. Now the two planks must be placed at the diagonal positions. Allowed green/blue enchanted planks to replace each other and no need to use the same color.
@@ -45,6 +47,8 @@ Added Simplified Chinese translation.
 修复了Tamrelite/Pendorite/Latharium/Kasai矿石无法烧炼的问题。移除了1.7.1.1的临时配方。
 
 修复了Tamrelite/Pendorite/Latharium矿石时运无效的问题。
+
+修复了Tamrelite/Pendorite/Latharium/Kasai工具/装备配方形状错误。
 
 修复了原木无法烧炼成木炭的问题。
 
