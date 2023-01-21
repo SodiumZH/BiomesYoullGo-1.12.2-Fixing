@@ -14,6 +14,8 @@ Some wooden walls missing recipe
 
 Cypress missing bookshelf
 
+BYG bookshelves drop itself when broken without Silk Touch
+
 --
 
 树叶无法自动消失
@@ -29,3 +31,5 @@ Cypress missing bookshelf
 一些木墙配方缺失
 
 Cypress缺失书架
+
+BYG书架无精准采集破坏掉落自身

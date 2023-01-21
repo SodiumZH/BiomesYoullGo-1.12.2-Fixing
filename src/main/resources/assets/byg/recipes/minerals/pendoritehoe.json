@@ -1,20 +1,19 @@
 {
   "group": "byg",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    " S",
+    " S"
+  ],
+  "key": {
+    "P": {
       "item": "byg:pendoritegem"
     },
-    {
-      "item": "byg:pendoritegem"
-    },
-    {
-      "item": "byg:stonestick"
-    },
-    {
+    "S": {
       "item": "byg:stonestick"
     }
-  ],
+  },
   "result": {
     "item": "byg:pendoritehoe",
     "count": 1

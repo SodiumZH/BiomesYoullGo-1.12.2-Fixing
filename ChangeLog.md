@@ -30,6 +30,8 @@ Fixed gates missing recipes.
 
 Adjusted recipes of bookshelves to solve the collision with vanilla bookshelf. To make BYG shelves the books need to be placed vertically (90 degrees rotated from vanilla recipes). To make vanilla bookshelves, just use the vanilla recipe.
 
+Added hunger effect to Cooked Flesh, but with shorter time and lower probability. (NEVER eat rotten food in reality, even after cooking!)
+
 Fixed mod info not correctly displaying.
 
 Changed the mod name *byg*->*Biomes You'll Go* displayed in JEI.
@@ -55,6 +57,8 @@ Added Simplified Chinese translation.
 修复了栅栏门缺失合成配方的问题。
 
 调整了书架配方以回避与原版书架配方的冲突。现在合成BYG书架时三个书需要竖着摆放（原配方转90度）。用原版配方以合成原版书架。
+
+向熟腐肉加入了饥饿效果，时间长度和概率比腐肉低。（在现实中绝对不要吃变质的食物，即使做熟了！）
 
 修复了mod界面中mod信息显示错误的问题。
 

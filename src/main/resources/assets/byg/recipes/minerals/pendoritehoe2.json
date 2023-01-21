@@ -8,15 +8,14 @@
   ],
   "key": {
     "P": {
-      "item": "byg:tamrelitegem"
+      "item": "byg:pendoritegem"
     },
     "S": {
-      "type": "forge:ore_dict",
-      "ore": "stickWood"
+      "item": "byg:stonestick"
     }
   },
   "result": {
-    "item": "byg:tamrelitehoe",
+    "item": "byg:pendoritehoe",
     "count": 1
   }
 }
