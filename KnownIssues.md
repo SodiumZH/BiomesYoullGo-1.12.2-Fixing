@@ -1,44 +1,45 @@
 ## 1.8
 
-**Tree leaves not vanishing**
+#1 **Tree leaves not vanishing**
 
-**Unable to place upper slabs**
+#2 **Tree leaves and wooden blocks not burning out**
 
-Slab items missing 3D model
+#3 **Unable to place upper slabs**
 
-Some technical blocks (e.g. upper/lower door, opened gate, etc.) presenting in JEI
+#4 Slab items missing 3D model
 
-Woods unable to make planks
+#5 Some technical blocks (e.g. upper/lower door, opened gate, etc.) presenting in JEI
 
-*Some wooden walls missing recipe*
+#6 Woods unable to make planks
 
-*Cypress missing bookshelf*
+#7 *Some wooden walls missing recipe*
 
-*BYG bookshelves drop itself when broken without Silk Touch*
+#8 *Cypress missing bookshelf*
 
-**Open gates orientation error**
+#9 *BYG bookshelves drop itself when broken without Silk Touch*
+
+#10 **Opened gates orientation error**
 
 --
 
-**树叶无法自动消失**
+#1 **树叶无法自动消失**
 
-**无法放置上半砖**
+#2 **树叶和木制品无法烧尽**
 
-台阶丢失道具3D模型
+#3 **无法放置上半砖**
 
-一些技术性方块（上/下半门、打开的栅栏门等）出现在JEI中
+#4 台阶丢失道具3D模型
 
-木头无法做成木板
+#5 一些技术性方块（上/下半门、打开的栅栏门等）出现在JEI中
 
-*一些木墙配方缺失*
+#6 木头无法做成木板
 
-*Cypress缺失书架*
+#7 *一些木墙配方缺失*
 
-*BYG书架无精准采集破坏掉落自身*
+#8 *Cypress缺失书架*
 
-**打开的栅栏门方向错误**
+#9 *BYG书架无精准采集破坏掉落自身*
 
+#10 **打开的栅栏门方向错误**
 
-
-## 1.8.1
 

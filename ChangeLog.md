@@ -76,6 +76,10 @@ Added Simplified Chinese translation.
 
 Fixed wrong gate recipes.
 
+(For major changes see changelog 1.8)
+
 --
 
 修复了栅栏门合成配方错误。
+
+（主要更改见changelog 1.8）
