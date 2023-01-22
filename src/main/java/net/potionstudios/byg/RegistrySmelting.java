@@ -15,9 +15,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
  import net.minecraftforge.oredict.OreDictionary;
  
  @Elementsbyg.ModElement.Tag
-public class SmeltingRegistry 
+public class RegistrySmelting
 extends Elementsbyg.ModElement {
-	 public SmeltingRegistry(Elementsbyg instance) {
+	 public RegistrySmelting(Elementsbyg instance) {
 		  super(instance, 2420);
 		}
 	 
