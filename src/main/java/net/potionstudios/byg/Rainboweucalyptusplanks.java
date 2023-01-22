@@ -40,7 +40,7 @@
  
    
    public void init(FMLInitializationEvent event) {
-     OreDictionary.registerOre("plankWood", block);
+     OreDictionary.registerOre("plankWood", block);OreDictionary.registerOre("plankWoodBYG", block);
    }
  
    
